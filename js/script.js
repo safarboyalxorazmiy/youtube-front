@@ -22,3 +22,20 @@ menuIcons[1].addEventListener("click", () => {
         isOpened = false;
     }
 })
+
+// .onclick
+
+let liArray = document.querySelectorAll("li") // [li, li, li]
+liArray.forEach(li => {
+    li.onclick = function() {
+        // Hammasidan olib tashlash
+        liArray.forEach(li => {
+            li.classList.remove("active");
+        })
+
+        // bittasiga qo'shish
+        li.classList.add("active");
+    }
+});
+
+// React + Backend
