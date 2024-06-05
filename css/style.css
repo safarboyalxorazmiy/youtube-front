@@ -105,3 +105,15 @@ ul li.active {
 ul li span {
     text-transform: capitalize;
 }
+
+.category {
+    padding: 10px 70px;
+}
+
+.category a {
+    text-decoration: none;
+    background-color: #F2F2F2;
+    color: black;
+    padding: 20px 30px;
+    font-size: 18px;
+}

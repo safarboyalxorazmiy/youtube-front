@@ -6,6 +6,11 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+
+
 </head>
 <body>
     <header>
@@ -37,39 +42,39 @@
             </div>
 
             <ul>
-                <li class="active">
+                <li id="home" class="active">
                     <img src="/images/home-icon.svg" alt="">
                     <span>home</span>
                 </li>
-                <li>
+                <li id="short">
                     <img src="/images/shorts-icon.svg" alt="">
                     <span>short</span>
                 </li>
-                <li>
+                <li id="subscription">
                     <img src="/images/subscription-icon.svg" alt="">
                     <span>subscription</span>
                 </li>
-                <li>
+                <li id="channel">
                     <img src="/images/channel-icon.svg" alt="">
                     <span>channel</span>
                 </li>
-                <li>
+                <li id="history">
                     <img src="/images/history-icon.svg" alt="">
                     <span>history</span>
                 </li>
-                <li>
+                <li id="playlists">
                     <img src="/images/playlists-icon.svg" alt="">
                     <span>playlists</span>
                 </li>
-                <li>
+                <li id="videos">
                     <img src="/images/videos-icon.svg" alt="">
                     <span>Your videos </span>
                 </li>
-                <li>
+                <li id="later">
                     <img src="/images/clock-icon.svg" alt="">
                     <span>watch later</span>
                 </li>
-                <li>
+                <li id="like">
                     <img src="/images/like-icon.svg" alt="">
                     <span>like</span>
                 </li>
@@ -78,8 +83,10 @@
 
         <div class="darker"></div>
     </div>
-    
 
+    <div id="root">
+         
+    </div>
 
     <script src="js/script.js"></script>
 </body>
